@@ -1,0 +1,33 @@
+:root {
+	--logotipo: #1a1a1a;
+	--profesion: #f2f2f2;
+	--primario: #2e5fff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Bebas Neue', cursive;
+	background-image: url('./../img/bg.jpg');
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+}
+
+main {
+	width: 90%;
+	margin: auto;
+	max-width: 800px;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
